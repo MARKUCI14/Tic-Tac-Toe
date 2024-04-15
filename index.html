@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Tic-Tac-Toe</h1>
+    <div class="settings-menu">
+      <label for="boardSize">Choose the board size (n value)</label>
+      <select id="boardSize">
+        <option value="3">3x3</option>
+        <option value="4">4x4</option>
+        <option value="5">5x5</option>
+        <option value="6">6x6</option>
+        <option value="7">7x7</option>
+        <option value="8">8x8</option>
+        <option value="9">9x9</option>
+        <option value="10">10x10</option>
+      </select>
+      <label for="consecutive">Choose number of consecutive characters to win (row/column/diagonal) (m value):</label>
+      <select id="consecutive">
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+    </div>
+    <div class="game-container">
+      <div id="game-board" class="board">
+
+      </div>
+    </div>
+    <h2 id="status">First choose your input above!</h2>
+    <div class="button-class">
+      <button type="reset" id="restart-btn">Start</button>
+    </div>
+    <footer>
+      <section>Created by: Portik Márk-Krisztián<br>(pmim2290) - 523/2</section>
+    </footer>
+  </div>
+</body>
+
+</html>
